@@ -27,9 +27,11 @@ def main():
         if key_lst[pg.K_LEFT]:
             kk_rct.move_ip((-1,0))#ren10-4
         if key_lst[pg.K_RIGHT]:
-            kk_rct.move_ip((1,0))#ren10-4
+            kk_rct.move_ip((2,0))#ren10-4
         if key_lst[pg.K_DOWN]:
             kk_rct.move_ip((0,1))#ren10-4
+        kk_rct.move_ip((-1,0))
+        
 
 
         x = tmr%3200
